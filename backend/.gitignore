@@ -1,0 +1,78 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+staticfiles/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env.bak/
+.venv.bak/
+
+# Database backups
+*.dump
+*.sql
+
+# Django migrations
+# If you want to include migrations, comment out this line
+# */migrations/*.py
+# But always ignore the __pycache__ in migrations
+*/migrations/__pycache__/*
+
+# Django static & media roots
+/static/
+/media/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Cache files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.coverage.*
+coverage.xml
+*.cover
+
+# Debug logs
+debug.log
